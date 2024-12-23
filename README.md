@@ -34,7 +34,7 @@ I created a personal portfolio website using HTML and CSS. I designed it from sc
 # This project was designed using modern technologies to ensure performance and quality[figma].
 
   -PORTFOLIO
-  [link](file:///C:/Users/o/Desktop/orange%20programming/-portfolio-website/index1.html)
+  [link](https://halaabushehab.github.io/-portfolio-website/)
 
   -Wireframe +mockup
   [link]( https://www.figma.com/design/sSLkrTaUM2d1yDBIVwp9y1/Untitled?node-id=0-1&p=f&t=YgIWiYFFOa36Vz5Y-0 )

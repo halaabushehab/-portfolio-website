@@ -603,13 +603,7 @@ transform: scale(1.5);}
 
  } 
 
- /* .contact .heading{
-  font-size: 3rem;
-  font-family:serif;
-  text-align: s; 
-  margin: 50px 20px 100px 50px;
- } */
- 
+
 .contact h2{
   font-size: 5rem;
   text-align: center;
@@ -856,27 +850,37 @@ form .input-box{
 
 
 
+@mixin box-shadow($color, $spread: 25px) {
+  box-shadow: 0 0 $spread $color;
+}
 
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .nav {
+    margin: 0;
+  }
+}
 
  /*=============================== media query ============================== */
- @media (max-width: 768px) {
+  @media (max-width: 768px) {
   .header {
     flex-direction: column;
     padding: 10px;
   }
 
-  a {
-    color: white;
-}
+
 a:visited {
-    color: white;
+    color: var(--main-color);
+    margin-right: 50px;
 }
 a:hover {
     color: #6F86FF;
 }
 
 body {
-    background-color: rgb(65, 71, 97);
     font-family: sans-serif;
 }
 
@@ -893,7 +897,7 @@ body {
   .nav a {
     margin-left: 1rem;
   }
-}
+} 
 
 
 
@@ -903,7 +907,7 @@ body {
 
  /*=============================== media query ============================== */
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .home {
     flex-direction: column;
     align-items: center;
@@ -928,14 +932,16 @@ body {
     font-size: 20px;
   }
 }
-
-
-
+ 
 
 
   /*=============================== media query ============================== */
 
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
+  
+
+    
+
     .education{
       background-color: var(--bg-color);
 
@@ -976,11 +982,12 @@ body {
       line-height: 1.5; 
     }
 
-  }
+  } 
    /*=============================== media query ============================== */
-   @media (max-width: 768px) {
+    @media (max-width: 768px) {
     .skills{
       margin-top: 100px;
+      background-color: var(--bg-color);
     }
     .skills-boxs, .project-box, .contact2 {
       flex-direction: column;
@@ -991,26 +998,26 @@ body {
       width: 120px;
       height: 120px;
     }
-  }
+  } 
 
  /*=============================== media query ============================== */
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
 
   .project {
-
-    margin-top: 1500px; 
+    margin-top: 1800px; 
     margin-bottom: 50px; 
   }
 
 
-}
-  /*=============================== media query ============================== */
+} 
+/* =============================== media query ==============================  */
 
-  @media (max-width: 768px) {
+  
+   @media (max-width: 768px) {
 
     .contact{
-      margin-top: 2800px; 
+      margin-top: 3000px; 
     }
     .contact2 {
       grid-template-columns: 1fr; 
@@ -1023,19 +1030,19 @@ body {
   
     form {
       flex-direction: column; 
-      gap: 1.5rem; /
+      gap: 1.5rem; 
     }
   
     .contact form .input-box input,
     .contact form textarea {
       width: 100%; 
-      font-size: 0.9rem; 
+      font-size: .5rem; }
   
-    .contact-item a {
+  .contact-item a{
       width: 3rem;
       height: 3rem;
       font-size: 2rem;
-    }
+    } 
   
     .contact h2 {
       font-size: 2.5rem; 
@@ -1064,4 +1071,4 @@ body {
     .footer p {
       font-size: 0.8rem;
     }
-  }}
+  }
