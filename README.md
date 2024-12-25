@@ -15,18 +15,14 @@ I created a personal portfolio website using HTML and CSS. I designed it from sc
 
 
 
- **WIREFRAME**
-![image](c:\Users\o\Desktop\orange programming\-portfolio-website\Screenshot 2024-12-21 183741.png)
-
-
-
  **MOCKUP**
-![image](c:\Users\o\Desktop\orange programming\-portfolio-website\Screenshot 2024-12-21 183807.png)
+![image](mockup.png)
 
 
 
  **PORTFOLIO**
-![image](c:\Users\o\Desktop\orange programming\-portfolio-website\Screenshot 2024-12-22 002959.png)
+![image](website.png)
+
 
 
 
