@@ -33,4 +33,5 @@ I created a personal portfolio website using HTML and CSS. I designed it from sc
   [link](https://halaabushehab.github.io/-portfolio-website/)
 
   -Wireframe +mockup
-  [link]( https://www.figma.com/design/sSLkrTaUM2d1yDBIVwp9y1/Untitled?node-id=0-1&p=f&t=YgIWiYFFOa36Vz5Y-0 )
+  [link]( https://www.figma.com/design/7EbXwhTpjuBo7TpnOSPDhA/Untitled?t=4J2C2qa0DUbWqB6r-0
+  )
